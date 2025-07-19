@@ -2,7 +2,7 @@ Guide d'Installation et Utilisation du Chatbot Scientifique
 
 📝 Description du Projet
 
-Ce projet consiste en un chatbot intelligent capable d'interagir avec les utilisateurs pour répondre à des questions sur des publications scientifiques issues de la base de données Scopus. Le chatbot utilise des techniques de NLP et d'indexation sémantique pour fournir des réponses pertinentes.
+Ce projet consiste en un chatbot intelligent capable d'interagir avec les utilisateurs pour répondre à des questions sur des publications scientifiques issues de la base de données Arxiv. Le chatbot utilise des techniques de NLP et d'indexation sémantique pour fournir des réponses pertinentes.
 
 ⚙️ Prérequis
 
