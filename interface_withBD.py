@@ -20,8 +20,8 @@ DB_NAME = os.getenv("DB_NAME")
 # Chargement des ressources
 @st.cache_resource
 def load_resources():
-    index = faiss.read_index("D:/MachineLearning/Chatbot_Project/faiss_index_articles1.index")
-    article_ids = np.load("D:/MachineLearning/Chatbot_Project/VisualisationAvecBD/indexed_article_ids.npy", allow_pickle=True)
+    index = faiss.read_index("faiss_index_articles1.index")
+    article_ids = np.load("indexed_article_ids.npy", allow_pickle=True)
     model = SentenceTransformer("all-MiniLM-L6-v2")
     return index, article_ids, model
 
