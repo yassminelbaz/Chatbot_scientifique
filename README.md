@@ -39,24 +39,35 @@ streamlit run interface_withBD.py
 🛠 Structure des fichiers
 
 => CreationBD.sql : Script SQL pour créer la structure de la base de données
+
 => charts.py : Module de visualisation des données
+
 => intent_detector.py : Détection d'intention avec NLP
+
 => interface_withBD.py : Interface Streamlit principale
+
 => vectorisation.ipynb : Notebook pour la vectorisation des données et création de l'index FAISS
+
 => InsertionDesDonnées.ipynb : Notebook pour l'importation des données dans MySQL
 
 🤖 Utilisation
 
 => Lancez l'application avec streamlit run interface_withBD.py
+
 => Posez votre question dans la zone de texte (ex: "Quelles sont les publications récentes sur l'apprentissage automatique?")
+
 => Utilisez les filtres dans la sidebar pour affiner votre recherche
+
 => Consultez les résultats et visualisations générés
 
 📚 Données gérées
 
 Le système gère les données suivantes :
+
 => Articles (titre, résumé, année, DOI, domaine)
+
 => Auteurs
+
 => Mots-clés
 
 📌 Note importante sur l'organisation des fichiers :
