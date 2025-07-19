@@ -1,9 +1,11 @@
-                      Guide d'Installation et Utilisation du Chatbot Scientifique
+Guide d'Installation et Utilisation du Chatbot Scientifique
 
 📝 Description du Projet
+
 Ce projet consiste en un chatbot intelligent capable d'interagir avec les utilisateurs pour répondre à des questions sur des publications scientifiques issues de la base de données Scopus. Le chatbot utilise des techniques de NLP et d'indexation sémantique pour fournir des réponses pertinentes.
 
 ⚙️ Prérequis
+
 Python 3.8 ou supérieur
 MySQL Server
 
@@ -31,9 +33,11 @@ MySQL Server
    DB_NAME=chatbot_db
 
 🚀 Lancement de l'application
+
 streamlit run interface_withBD.py
 
 🛠 Structure des fichiers
+
 => CreationBD.sql : Script SQL pour créer la structure de la base de données
 => charts.py : Module de visualisation des données
 => intent_detector.py : Détection d'intention avec NLP
@@ -42,16 +46,19 @@ streamlit run interface_withBD.py
 => InsertionDesDonnées.ipynb : Notebook pour l'importation des données dans MySQL
 
 🤖 Utilisation
+
 => Lancez l'application avec streamlit run interface_withBD.py
 => Posez votre question dans la zone de texte (ex: "Quelles sont les publications récentes sur l'apprentissage automatique?")
 => Utilisez les filtres dans la sidebar pour affiner votre recherche
 => Consultez les résultats et visualisations générés
 
 📚 Données gérées
+
 Le système gère les données suivantes :
 => Articles (titre, résumé, année, DOI, domaine)
 => Auteurs
 => Mots-clés
 
 📌 Note importante sur l'organisation des fichiers :
+
 Pour garantir le bon fonctionnement de l'application, tous les données fournis (les fichiers CSV) doivent impérativement être placés dans le même dossier racine. L'application utilise des chemins relatifs simples (uniquement les noms de fichiers), ce qui signifie qu'elle cherche automatiquement ces fichiers dans le dossier où elle est exécutée. Aucune modification de chemin n'est nécessaire, mais un mauvais placement des fichiers entraînera des erreurs.
