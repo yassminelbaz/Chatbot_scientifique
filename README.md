@@ -7,6 +7,7 @@ Ce projet consiste en un chatbot intelligent capable d'interagir avec les utilis
 ⚙️ Prérequis
 
 Python 3.8 ou supérieur
+
 MySQL Server
 
 📦 Installation
